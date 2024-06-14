@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:text="Código"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvCodigoDic"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:text="Palabra Español"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvPalabraesp"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="city"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="Palabra Ingles"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvPalabraingl"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="Ciudad"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
