@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MenuPrincipal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/speaktoinglishfondoprincipal"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtPrincipal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido a la Aplicacion Speak In English"
+                android:textColor="#F3F3F3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.049" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="410dp"
+                android:layout_height="146dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/imagenprincipalspeaktoinglish"
+                app:layout_constraintTop_toBottomOf="@+id/txtPrincipal"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/txtDiccionario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diccionario de palabras para aprender:"
+                android:textColor="#F3F3F3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.088"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.415" />
+
+            <TextView
+                android:id="@+id/txtDinamica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinámica Speak To Inglish:"
+                android:textColor="#F3F3F3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.065"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtPrincipal"
+                app:layout_constraintVertical_bias="0.571" />
+
+            <TextView
+                android:id="@+id/Registrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrar Nueva palabra al diccionario:"
+                android:textColor="#F3F3F3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.094"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtPrincipal"
+                app:layout_constraintVertical_bias="0.802" />
+
+            <Button
+                android:id="@+id/btnirdiccionario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir a Diccionario"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.887"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtPrincipal"
+                app:layout_constraintVertical_bias="0.473" />
+
+            <Button
+                android:id="@+id/btnPresenteDin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir a la Dinamica"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.887"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtPrincipal"
+                app:layout_constraintVertical_bias="0.68" />
+
+            <Button
+                android:id="@+id/btnPasadoDin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ir al Registro"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.887"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtPrincipal"
+                app:layout_constraintVertical_bias="0.893" />
+
+            <Button
+                android:id="@+id/btnRegresarDin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salir"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.546"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtPrincipal"
+                app:layout_constraintVertical_bias="0.99" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
